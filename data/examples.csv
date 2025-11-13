@@ -1,0 +1,59 @@
+text,label
+"Boa tarde, preciso do status da requisição #12345, houve alguma atualização?",Produtivo
+"Anexo envio relatório financeiro do mês. Favor confirmar recebimento.",Produtivo
+"Olá, há previsão de quando meu chamado será atendido?",Produtivo
+"Preciso alterar o destinatário da fatura, pode me orientar?",Produtivo
+"Consegue reabrir o ticket 987? O problema voltou.",Produtivo
+"Fiz o pagamento, segue comprovante anexo.",Produtivo
+"Temos urgência na entrega deste documento, por favor priorizar.",Produtivo
+"Solicito suporte para erro ao acessar o sistema.",Produtivo
+"Bom dia, meu acesso foi bloqueado, como procedo?",Produtivo
+"Favor encaminhar protocolo de atendimento.",Produtivo
+"Feliz Natal e próspero ano novo!",Improdutivo
+"Parabéns pelo time, vocês arrasaram!",Improdutivo
+"Muito obrigado pelo suporte, abraço.",Improdutivo
+"Ótimo trabalho em equipe, continuem assim.",Improdutivo
+"Só passando pra desejar um ótimo dia!",Improdutivo
+"Recebi o presentinho, muito obrigado!",Improdutivo
+"Boas festas!",Improdutivo
+"Apenas conferindo se recebeu meu e-mail, sem pressa.",Improdutivo
+"Poderia me enviar o material quando puder, obrigado.",Improdutivo
+"Estou de férias essa semana, retorno segunda.",Improdutivo
+"Encaminho o arquivo solicitando validação.",Produtivo
+"Há divergência nos valores da nota fiscal, preciso de correção.",Produtivo
+"Solicitamos cancelamento da ordem de pagamento.",Produtivo
+"O sistema retornou erro 500 ao tentar gerar relatório.",Produtivo
+"Por favor atualizar o contato para cobrança.",Produtivo
+"Call agendada para discutir o projeto: confirmem presença.",Produtivo
+"Qual a previsão de entrega do relatório consolidado?",Produtivo
+"Posso ligar para tirar umas dúvidas sobre o sistema?",Produtivo
+"Obrigado pelo retorno rápido!",Improdutivo
+"Valeu, resolveu meu problema.",Improdutivo
+"Bom trabalho equipe!",Improdutivo
+"Compartilho abaixo um artigo interessante.",Improdutivo
+"Segue foto do evento. Abraços!",Improdutivo
+"Solicito reembolso das despesas conforme comprovantes.",Produtivo
+"Meu cadastro apresenta dados incorretos, preciso alterar.",Produtivo
+"Temos uma pendência no contrato, aguardo contato.",Produtivo
+"Foi excelente a apresentação hoje, parabéns.",Improdutivo
+"Recebi a confirmação do pagamento, obrigado.",Produtivo
+"O link não abre, aparece página em branco.",Produtivo
+"Favor confirmar se o anexo chegou corretamente.",Produtivo
+"Obrigado pela atenção prestada.",Improdutivo
+"Recebi ótimas notícias sobre o projeto.",Improdutivo
+"Por favor, excluir o usuário x do sistema.",Produtivo
+"Gostaria de agendar manutenção para o dia 10.",Produtivo
+"Esta mensagem é só para avisar que estou fora do escritório.",Improdutivo
+"Parabéns pelo excelente atendimento na última semana.",Improdutivo
+"Preciso do relatório de inadimplência até sexta.",Produtivo
+"Quem for responsável pode me retornar com mais detalhes?",Produtivo
+"Passando pra dizer bom final de semana!",Improdutivo
+"Atualizem meu e-mail para contato: novo@exemplo.com",Produtivo
+"Confirmo presença na reunião.",Improdutivo
+"Não tenho mais dúvidas, obrigado!",Improdutivo
+"Existe alguma documentação sobre integração da API?",Produtivo
+"Há divergência no saldo de conta, preciso esclarecimento.",Produtivo
+"Podem me enviar o contrato assinado?",Produtivo
+"Quero agradecer a ajuda ontem, muito grato!",Improdutivo
+"Favor confirmar cancelamento de serviço.",Produtivo
+"Boa noite, só para atualizar que finalizei as atividades.",Improdutivo

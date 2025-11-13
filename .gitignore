@@ -1,0 +1,39 @@
+# Ambientes virtuais
+venv/
+venv312/
+.env/
+*.pyenv
+
+# Cache e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Modelos e artefatos
+model/
+*.pkl
+
+# IDEs e editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências de pacotes
+*.egg-info/
+dist/
+build/
+
+# Arquivos sensíveis
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+

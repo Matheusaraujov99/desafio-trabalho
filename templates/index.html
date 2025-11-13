@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Classificador de Emails - desafio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Classificador de Emails — Produtivo / Improdutivo</h1>
+      <p>Envie um arquivo (.txt ou .pdf) ou cole o texto do email. O sistema classificará e sugerirá resposta automática.</p>
+    </header>
+
+    <main>
+      <form method="post" enctype="multipart/form-data">
+        <label for="email_text">Cole o texto do email</label>
+        <textarea id="email_text" name="email_text" rows="8" placeholder="Cole o texto do email aqui..."></textarea>
+
+        <label for="file">Ou envie um arquivo (.txt ou .pdf)</label>
+        <input id="file" type="file" name="file" accept=".txt,.pdf">
+
+        <button type="submit" class="btn">Classificar e Gerar Resposta</button>
+      </form>
+
+      {% if result %}
+      <section class="result">
+        <h2>Resultado</h2>
+        <p><strong>Categoria:</strong> <span class="badge">{{ result.category }}</span> &nbsp; <small>confiança: {{ result.probability }}</small></p>
+
+        <h3>Resposta sugerida</h3>
+        <pre class="response">{{ result.suggested_response }}</pre>
+
+        <h3>Trecho do email (original)</h3>
+        <pre class="original">{{ result.original_text[:400] }}{% if result.original_text|length > 400 %}...{% endif %}</pre>
+      </section>
+      {% endif %}
+    </main>
+
+    <footer>
+      <p>Projeto desenvolvido por Matheus Araújo e localiza-se em .</p>
+    </footer>
+  </div>
+</body>
+</html>
