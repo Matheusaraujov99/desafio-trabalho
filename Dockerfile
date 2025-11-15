@@ -11,5 +11,6 @@ COPY . /app
 
 RUN python -c "import nltk; nltk.download('stopwords')"
 
-EXPOSE 5000
-CMD ["gunicorn", "app:app", "-b", "0.0.0.0:5000", "--workers", "2"]
+ENV PORT=10000
+
+CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:$PORT", "--workers", "2"]
